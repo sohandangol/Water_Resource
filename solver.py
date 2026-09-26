@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.set_page_config(layout="wide", page_title="Hydraulic Flood Simulator")
+st.set_page_config(layout="wide", page_title="Hydraulic simulations")
 
 st.markdown("""
 <style>
