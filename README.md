@@ -9,7 +9,6 @@ WaterResource/
 ├── src/                       # Current, maintained applications
 │   ├── solver.py              # Kinematic and diffusive wave visualizer
 │   └── Kinematic_wave_equation_solver.py
-├── TrialsPyCodes/             # Preserved experiments and earlier prototypes
 ├── requirements.txt           # Python dependencies
 ├── .devcontainer/             # Development-container configuration
 └── .vscode/                   # Editor settings
