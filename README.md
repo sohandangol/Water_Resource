@@ -1,0 +1,1 @@
+This repository contains the fundamental concept of water resources including hydrology, hydraulics and Computational technique water part. Here, I will try to get most of the concepts covered through interactive visualizations and simulations breaking complex equations by simple intuitions and logic.
