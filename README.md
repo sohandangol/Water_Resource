@@ -30,3 +30,4 @@ The second application can be started with:
 ```powershell
 streamlit run src/Kinematic_wave_equation_solver.py
 ```
+or can accessed at https://sohandangolwave.streamlit.app/
