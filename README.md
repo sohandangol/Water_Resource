@@ -1,33 +1,32 @@
 # Water Resource
 
-This repository contains the fundamental concepts of water resources including hydrology, hydraulics, and computational techniques. Interactive visualizations and simulations are used to explain complex equations with simple intuitions and logic.
+Interactive visualizations and simulations to explain complex water resource concepts, hydrology, and computational hydraulics with simple intuitions.
 
-## Repository layout
+## Repository Layout
 
 ```text
 WaterResource/
-├── src/                       # Current, maintained applications
-│   ├── solver.py              # Kinematic and diffusive wave visualizer
+├── src/                       # Main applications and logic
+│   ├── coreApp.py             # Integrated Hydrodynamics Modeling Suite
+│   ├── core/                  # Core modules (GIS, routing, hydrology)
+│   ├── solver.py              # Kinematic & diffusive wave visualizer
 │   └── Kinematic_wave_equation_solver.py
-├── requirements.txt           # Python dependencies
-├── .devcontainer/             # Development-container configuration
-└── .vscode/                   # Editor settings
+|
+├── TrialsPyCodes/             # Experimental scripts and prototypes
+└── requirements.txt           # Python dependencies
 ```
 
-`src/` is the canonical location for new maintained Python applications. Keep experiments, alternative implementations, and unfinished investigations in `TrialsPyCodes/` until they are ready to be promoted.
+## Running the Applications
 
-## Run the Streamlit visualizer
-
-From the repository root:
-
+First, install the required dependencies:
 ```powershell
-python -m pip install -r requirements.txt
-streamlit run src/solver.py
+pip install -r requirements.txt
 ```
 
-The second application can be started with:
+Then, you can launch any of the tools using Streamlit:
 
-```powershell
-streamlit run src/Kinematic_wave_equation_solver.py
-```
-or can accessed at https://sohandangolwave.streamlit.app/
+* **Hydrodynamics Suite (New):** `streamlit run src/coreApp.py`
+* **Wave Visualizer:** `streamlit run src/solver.py`
+* **Kinematic Solver:** `streamlit run src/Kinematic_wave_equation_solver.py`
+
+*(The original wave equation solver is also hosted online at [sohandangolwave.streamlit.app](https://sohandangolwave.streamlit.app/) while the code I am currently building ie coreApp can be viewed at [on-testing-app.streamlit.app](https://on-testing-app.streamlit.app))*
