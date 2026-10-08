@@ -11,8 +11,6 @@ WaterResource/
 │   ├── core/                  # Core modules (GIS, routing, hydrology)
 │   ├── solver.py              # Kinematic & diffusive wave visualizer
 │   └── Kinematic_wave_equation_solver.py
-|
-├── TrialsPyCodes/             # Experimental scripts and prototypes
 └── requirements.txt           # Python dependencies
 ```
 
